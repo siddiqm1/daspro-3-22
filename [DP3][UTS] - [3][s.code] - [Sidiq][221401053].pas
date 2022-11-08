@@ -1,13 +1,13 @@
 program soal3;
 uses crt;
 var
-lenght, i, j, k : integer;
+panjang, i, j, k : integer;
 begin
 
-     write('panjang satu segitiga : '); readln(lenght);
+     write('panjang satu segitiga : '); readln(panjang);
 
     i:=1;
-    while(i <= lenght) do
+    while(i <= panjang) do
         begin
             j := 1;
             while(j < i) do
@@ -16,7 +16,7 @@ begin
                     j := j+1;
                 end;
             
-            k := lenght;
+            k := panjang;
             while(k >= i) do
                 begin
                     write('*'); write(' ');
@@ -27,17 +27,17 @@ begin
         end;
 
     i := 1;
-    while(i <= lenght) do
+    while(i < panjang) do
         begin
-            j := lenght;
-            while(j > i) do
+            j := panjang;
+            while(j > i+1) do
                 begin
                     write(' ');
                     j := j-1;
                 end;
             
             k := 0;
-            while(k < i) do
+            while(k < i+1) do
                 begin
                     write('*'); write(' ');
                     k := k + 1;
