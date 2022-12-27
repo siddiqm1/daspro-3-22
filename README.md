@@ -29,3 +29,4 @@ Proyek ini merupakan sebuah program untuk menghitung berat badan ideal pengguna 
  - Menampilkan output berupa data diri mahasiswa, kategori badan user, berat badan ideal user dan kalori yang dibutuhkan perhari oleh user
  
  ## Video Program
+ https://youtu.be/ZcxcBT90SEE
